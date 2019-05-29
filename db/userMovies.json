@@ -1,0 +1,30 @@
+{
+  "userMovie1": {
+    "id": "",
+    "uid": "",
+    "movieId": "",
+    "isWatched": "",
+    "userRating": ""
+  },
+  "userMovie2": {
+    "id": "",
+    "uid": "",
+    "movieId": "",
+    "isWatched": "",
+    "userRating": ""
+  },
+  "userMovie3": {
+    "id": "",
+    "uid": "",
+    "movieId": "",
+    "isWatched": "",
+    "userRating": ""
+  },
+  "userMovie4": {
+    "id": "",
+    "uid": "",
+    "movieId": "",
+    "isWatched": "",
+    "userRating": ""
+  }
+}
