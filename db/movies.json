@@ -1,0 +1,26 @@
+{
+  "userMovie1": {
+    "id": "",
+    "title": "",
+    "MPAA-rating": "",
+    "imageUrl": ""
+  },
+  "userMovie2": {
+    "id": "",
+    "title": "",
+    "MPAA-rating": "",
+    "imageUrl": ""
+  },
+  "userMovie3": {
+    "id": "",
+    "title": "",
+    "MPAA-rating": "",
+    "imageUrl": ""
+  },
+  "userMovie4": {
+    "id": "",
+    "title": "",
+    "MPAA-rating": "",
+    "imageUrl": ""
+  }
+}
