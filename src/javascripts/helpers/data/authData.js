@@ -1,5 +1,7 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
+import movies from '../../components/movies/movies';
+import addMovie from '../../components/addMovie/addMovie';
 
 const authDiv = document.getElementById('auth');
 const authNavbar = document.getElementById('navbar-button-auth');
@@ -15,6 +17,8 @@ const checkLoginStatus = () => {
       logoutNavbar.classList.remove('hide');
       moviesNavbar.classList.remove('hide');
       moviesDiv.classList.remove('hide');
+      movies.movieStringBuilder();
+      addMovie.showMovieForm();
     } else {
       authDiv.classList.remove('hide');
       authNavbar.classList.remove('hide');

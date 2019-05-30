@@ -7,3 +7,30 @@ body {
 .hide {
   display: none;
 }
+
+#movies {
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.col {
+  display: flex;
+}
+
+.card {
+  align-content: center;
+  display: flex;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 5px;
+}
+
+.moviePhoto {
+  width: 90%;
+  align-self: center;
+}
+
+.addToWatchListBtn {
+  margin-top: 1em;
+}

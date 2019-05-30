@@ -1,26 +1,22 @@
 {
-  "userMovie1": {
-    "id": "",
-    "title": "",
-    "MPAA-rating": "",
-    "imageUrl": ""
+  "movie1": {
+    "title": "The Shining",
+    "MPAARating": "R",
+    "imageUrl": "https://vignette.wikia.nocookie.net/stephenking/images/c/c9/The_Shiningmovie.jpg/revision/latest?cb=20100627203118"
   },
-  "userMovie2": {
-    "id": "",
-    "title": "",
-    "MPAA-rating": "",
-    "imageUrl": ""
+  "movie2": {
+    "title": "Beauty and the Beast",
+    "MPAARating": "G",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91p8sSMXpkL._SY679_.jpg"
   },
-  "userMovie3": {
-    "id": "",
-    "title": "",
-    "MPAA-rating": "",
-    "imageUrl": ""
+  "movie3": {
+    "title": "Dumb & Dumber",
+    "MPAARating": "PG-13",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BZDQwMjNiMTQtY2UwYy00NjhiLTk0ZWEtZWM5ZWMzNGFjNTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY268_CR0,0,182,268_AL_.jpg"
   },
-  "userMovie4": {
-    "id": "",
-    "title": "",
-    "MPAA-rating": "",
-    "imageUrl": ""
+  "movie4": {
+    "title": "Gone with the Wind",
+    "MPAARating": "PG",
+    "imageUrl": "https://is2-ssl.mzstatic.com/image/thumb/Video5/v4/4c/c9/43/4cc94359-0a33-d475-3f52-6c8887261fc4/mza_4589520875394909953.jpg/268x0w.jpg"
   }
 }
