@@ -1,30 +1,30 @@
 {
   "userMovie1": {
-    "id": "",
-    "uid": "",
-    "movieId": "",
-    "isWatched": "",
-    "userRating": ""
+    "id": "userMovieId1",
+    "uid": "12345",
+    "movieId": "movieId1",
+    "isWatched": "true",
+    "userRating": "5"
   },
   "userMovie2": {
-    "id": "",
-    "uid": "",
-    "movieId": "",
-    "isWatched": "",
-    "userRating": ""
+    "id": "userMovieId2",
+    "uid": "23456",
+    "movieId": "movieId2",
+    "isWatched": "false",
+    "userRating": "4"
   },
   "userMovie3": {
-    "id": "",
-    "uid": "",
-    "movieId": "",
-    "isWatched": "",
-    "userRating": ""
+    "id": "userMovieId3",
+    "uid": "34567",
+    "movieId": "movieId3",
+    "isWatched": "true",
+    "userRating": "3"
   },
   "userMovie4": {
-    "id": "",
-    "uid": "",
-    "movieId": "",
-    "isWatched": "",
-    "userRating": ""
+    "id": "userMovieId4",
+    "uid": "45678",
+    "movieId": "movieId4",
+    "isWatched": "false",
+    "userRating": "2"
   }
 }
