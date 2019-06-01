@@ -2,6 +2,7 @@ import firebase from 'firebase/app';
 import auth from './components/auth/auth';
 import navbar from './components/navbar/navbar';
 import authData from './helpers/data/authData';
+import userMovies from './components/userMovies/userMovies';
 
 import apiKeys from './helpers/apiKeys.json';
 
@@ -13,6 +14,7 @@ const init = () => {
   navbar.navbarEvents();
   authData.checkLoginStatus();
   auth.authStringBuilder();
+  userMovies.getMoviesData();
 };
 
 init();
