@@ -14,7 +14,7 @@ const init = () => {
   navbar.navbarEvents();
   authData.checkLoginStatus();
   auth.authStringBuilder();
-  userMovies.getMoviesData();
+  userMovies.userMovieStringBuilder();
 };
 
 init();

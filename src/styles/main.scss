@@ -31,6 +31,40 @@ body {
   align-self: center;
 }
 
+.addBtn {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.deleteBtn {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
 .addToWatchListBtn {
   margin-top: 1em;
+  height: 45px;
+  width: 45px;
+}
+
+.removeFromWatchListBtn {
+  margin-top: 1em;
+  height: 45px;
+  width: 45px;
+}
+
+.fa-plus-square {
+  color: green;
+  height: 50px;
+  width: 50px;
+}
+
+.fa-minus-square {
+  color: red;
+  height: 50px;
+  width: 50px;
 }
