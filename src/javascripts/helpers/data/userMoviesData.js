@@ -3,7 +3,7 @@ import apiKeys from '../apiKeys.json';
 
 const firebaseUrl = apiKeys.firebaseKeys.databaseURL;
 
-const getUserMovies = () => new Promise((resolve, reject) => {
+const getUserMoviesData = () => new Promise((resolve, reject) => {
   axios.get(`${firebaseUrl}/userMovies.json`)
     .then((results) => {
       const userMoviesResults = results.data;
@@ -17,4 +17,8 @@ const getUserMovies = () => new Promise((resolve, reject) => {
     .catch(err => reject(err));
 });
 
-export default { getUserMovies };
+const addNewUserMovie = movieObject => axios.post(`${firebaseUrl}/userMovies.json`, movieObject);
+
+const deleteUserMovie = movieId => axios.delete(`${firebaseUrl}/userMovies/${movieId}.json`);
+
+export default { getUserMoviesData, addNewUserMovie, deleteUserMovie };
