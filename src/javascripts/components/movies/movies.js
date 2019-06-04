@@ -28,7 +28,6 @@ const addEvents = () => {
   for (let i = 0; i < addButtons.length; i += 1) {
     addButtons[i].addEventListener('click', addToUserMovieList);
   }
-  // const deleteButtons = document.getElementsByClassName()
 };
 
 const movieStringBuilder = () => {
@@ -43,7 +42,7 @@ const movieStringBuilder = () => {
       domString += `<p>Rating: ${movie.MPAARating}</p>`;
       domString += `<img class="moviePhoto" src="${movie.imageUrl}" />`;
       domString += `<button class="addBtn" id="${movie.id}"><i class="fas fa-plus-square fa-2x addToWatchListBtn"></i></button>`;
-      domString += `<button class="deleteBtn hide" id="${movie.id}"><i class="fas fa-minus-square fa-2x removeFromWatchListBtn"></i></button>`;
+      domString += `<button class="deleteBtn hide" id="${movie.id}"><i class="fas fa-check-square fa-2x removeFromWatchListBtn"></i></button>`;
       domString += '</div>';
       domString += '</div>';
     });
