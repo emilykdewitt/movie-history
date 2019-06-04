@@ -8,6 +8,10 @@ body {
   display: none;
 }
 
+.navbar {
+  margin-bottom: 10px;
+}
+
 #movies {
   margin-top: 2rem;
   margin-right: 2rem;
@@ -31,14 +35,7 @@ body {
   align-self: center;
 }
 
-.addBtn {
-  background-color: transparent;
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-
-.deleteBtn {
+.addBtn,.deleteFromWatchList, .deleteBtn  {
   background-color: transparent;
   border: none;
   margin: 0;
@@ -67,4 +64,22 @@ body {
   color: red;
   height: 50px;
   width: 50px;
+}
+
+.fa-check-square {
+  color: blue;
+  height: 50px;
+  width: 50px;
+}
+
+.fa-star {
+  color: lightgrey;
+}
+
+.checked {
+  color: rgb(209, 156, 10);
+}
+
+.yellow {
+  color: rgb(209, 156, 10);
 }
