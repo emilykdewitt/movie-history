@@ -32,7 +32,6 @@ const addEvents = () => {
 
 const movieStringBuilder = () => {
   moviesData.getMovies().then((movies) => {
-    console.error(movies);
     let domString = '';
     domString += '<div class="row">';
     movies.forEach((movie) => {
