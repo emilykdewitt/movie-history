@@ -11,23 +11,10 @@ const removeFromUserMovieList = (e) => {
   userMoviesData.getUserMoviesData();
 };
 
-const addStarRating = (e) => {
-  const divWithStars = e.target.closest('div').id;
-  console.error(divWithStars);
-  const starChildren = divWithStars.children;
-  for (let i = 0; i < starChildren.length; i += 1) {
-    starChildren[i].classList.add('yellow');
-  }
-};
-
 const addEvents = () => {
   const removeFromWatchListBtns = document.getElementsByClassName('deleteFromWatchList');
   for (let i = 0; i < removeFromWatchListBtns.length; i += 1) {
     removeFromWatchListBtns[i].addEventListener('click', removeFromUserMovieList);
-  }
-  const starRatingButtons = document.getElementsByClassName('starDiv');
-  for (let i = 0; i < starRatingButtons.length; i += 1) {
-    starRatingButtons[i].addEventListener('click', addStarRating);
   }
 };
 
@@ -42,15 +29,6 @@ const userMovieStringBuilder = (movieList) => {
     domString += `<p>Rating: ${movie.MPAARating}</p>`;
     domString += `<img class="moviePhoto" src="${movie.imageUrl}" />`;
     domString += `<button class="deleteFromWatchList" id="${movie.id}"><i class="fas fa-minus-square fa-2x removeFromWatchListBtn"></i></button>`;
-    domString += `<div id="${movie.id}" class="starDiv">`;
-    domString += `<div class="rating d-flex flex-wrap text-white mt-2">
-                    <span id="star1" class="star material-icons mx-1" data-value="1">star_border</span>
-                    <span id="star2" class="star material-icons mx-1" data-value="2">star_border</span>
-                    <span id="star3" class="star material-icons mx-1" data-value="3">star_border</span>
-                    <span id="star4" class="star material-icons mx-1" data-value="4">star_border</span>
-                    <span id="star5" class="star material-icons mx-1" data-value="5">star_border</span>
-                  </div>`;
-    domString += '</div>';
     domString += '</div>';
     domString += '</div>';
   });
