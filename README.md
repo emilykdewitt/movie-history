@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This website allows the user to add new movies to a master movie list and then add them to a personal watch list. The user can also rate they movie once it is on his or her watch list.
 
 ## Screenshots
-### Schedule:
+### Master Movie List:
 ![Image of the Movie Manager master list](https://github.com/emilykdewitt/movie-history/blob/master/screenshots/master-list-screenshot.png "screenshot of Movie Manager master list of movies, a series of cards with the movie title, poster, and MPAA rating")
 
 ## Installation Instructions
