@@ -11,20 +11,20 @@ const removeFromUserMovieList = (e) => {
   userMoviesData.getUserMoviesData();
 };
 
-const editMovie = (e) => {
-  const movieToEditId = e.target.closest('div').id;
-  console.error(movieToRemoveId);
-}
+// const editMovie = (e) => {
+//   const movieToEditId = e.target.closest('div').id;
+//   console.error(movieToRemoveId);
+// };
 
 const addEvents = () => {
   const removeFromWatchListBtns = document.getElementsByClassName('deleteFromWatchList');
   for (let i = 0; i < removeFromWatchListBtns.length; i += 1) {
     removeFromWatchListBtns[i].addEventListener('click', removeFromUserMovieList);
   }
-  const rateMovieBtns = document.getElementsByClassName('rateMovie');
-  for (let i=0; i < rateMovieBtns.length; i += 1) {
-    rateMovieBtns[i].addEventListener('click', editMovie);
-  }
+  // const rateMovieBtns = document.getElementsByClassName('rateMovie');
+  // for (let i=0; i < rateMovieBtns.length; i += 1) {
+  //   rateMovieBtns[i].addEventListener('click', editMovie);
+  // }
 };
 
 const userMovieStringBuilder = (movieList) => {
@@ -38,7 +38,8 @@ const userMovieStringBuilder = (movieList) => {
     domString += `<p>Rating: ${movie.MPAARating}</p>`;
     domString += `<img class="moviePhoto" src="${movie.imageUrl}" />`;
     domString += `<button class="deleteFromWatchList" id="${movie.id}"><i class="fas fa-minus-square fa-2x removeFromWatchListBtn"></i></button>`;
-    domString += `<button class="rateMovie" id="${movie.id}"><i class="fas fa-minus-square fa-2x removeFromWatchListBtn"></i></button>`;
+    // eslint-disable-next-line max-len
+    // domString += `<button class="rateMovie" id="${movie.id}"><i class="fas fa-minus-square fa-2x removeFromWatchListBtn"></i></button>`;
     domString += '</div>';
     domString += '</div>';
   });
